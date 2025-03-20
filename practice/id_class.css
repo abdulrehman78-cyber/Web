@@ -1,0 +1,29 @@
+#header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the content using its class */
+.content {
+    border: 1px solid #835b5b;
+    padding: 15px;
+    margin: 20px;
+    background-color: #967a7a;
+}
+
+/* Style the button using its ID */
+#clickMe {
+    background-color: #74bed6;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin: 20px;
+}
+
+/* Add a hover effect to the button */
+#clickMe:hover {
+    background-color: #04343e;
+}       
