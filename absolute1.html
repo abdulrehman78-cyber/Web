@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {/*this it the rigth way to apply font on web*/
+                font-family: "font1"; /*Giving font family name font1 now we can use it where we wanna apply*/
+                src: url("assets/fonts/styl.ttf"); /*this is the path where we downloaded our font file*/
+            }
+        .heading{
+            font-size: 45px;
+            font-family: "font1";
+        }
+        .w_box {
+            width: 300px;
+            height: 80px;
+            background-color: #fe9d48;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            left: 150px;        
+            border-radius: 15px;
+        }
+        .image {
+            position: absolute;
+            width: 100%;  
+        }
+        .parent{
+            position: relative; /*relative means it will move in inside the parent div*/
+            background-color: rgb(111, 222, 111);
+            width: 600px;
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">Burgers That love the earth!!!</div>
+    <div class="parent">
+        <img class="image" src="assets/images/product1.png">
+        <div class="w_box">
+            <img src="assets/images/pizzaIcon.png">
+        </div>
+    </div>
+</body>
+
+</html>
