@@ -1,0 +1,29 @@
+body{
+    font-family: "Poppins";
+    color: white;
+}
+.bg-color{
+    background: linear-gradient(to right,#FFAF68,#FFCDA2);
+}
+.heading{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.sub_heading{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.button{
+    color:#FFAF68;
+    height: 3rem;
+}
+.playlogo{
+    height: 3rem;
+}
+.itemstext{
+    font-weight: 700;
+}
+.back-color{
+    background-color: #FF8616;
+}
+
