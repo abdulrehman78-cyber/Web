@@ -1,29 +1,41 @@
+@font-face {
+    font-family: "Extra";
+    src: url("..//fonts/Poppins/Poppins-ExtraBold.ttf");
+}
 body{
-    font-family: "Poppins";
-    color: white;
+    font-family: "Extra";
 }
 .bg-color{
-    background: linear-gradient(to right,#FFAF68,#FFCDA2);
+    background: linear-gradient(to right,#FFCDA2,#FFAF68);
 }
-.heading{
-    font-size: 4rem;
-    font-weight: 700;
+
+.text{
+    padding-bottom: 10rem;
+    padding-left: 9rem;
+    color: rgb(255, 255, 255);
+    font-family: "Extra";
 }
-.sub_heading{
-    font-size: 2rem;
-    font-weight: 500;
+.text2{
+   padding-top: 12rem;
+   padding-left: 10rem;
+    color: rgb(255, 255, 255);
+    font-family: "Extra";
+    
 }
-.button{
-    color:#FFAF68;
-    height: 3rem;
+.h1{
+    font-size: 5.5rem;
 }
-.playlogo{
-    height: 3rem;
+.btn{
+    color: #FF7A04;
+    border-radius: 1.5rem;   
 }
-.itemstext{
-    font-weight: 700;
+.row3-color{
+    background-color: #FF7A04;
 }
-.back-color{
-    background-color: #FF8616;
+.whoWeAre{
+    padding-top: 19rem;
+}
+.person-img{
+    padding-left: 11rem;
 }
 
